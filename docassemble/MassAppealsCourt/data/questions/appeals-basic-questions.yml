@@ -6,6 +6,9 @@ modules:
 code: |
   courts[0] = macourts.matching_appeals_court("")
 ---
+code: | 
+  appeals_court = all_courts.matching_appeals_court("")
+---
 id: appeals basic questions intro screen
 question: |
   ${interview_short_title}: Mass Access Project
